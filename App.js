@@ -22,9 +22,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   box: {
-    width: 100,
+    width: 350,
+    height: 100,
+    backgroundColor: 'red',
+  },
+    box: {
+    width: 350,
+    height: 100,
+    backgroundColor: 'white',
+  },
+  box: {
+    width: 350,
     height: 100,
     backgroundColor: 'blue',
-    borderRadius: 10,
-  }
+  },
 });
