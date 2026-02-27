@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -9,7 +8,7 @@ export default function App() {
       <Text>c. Seu Curso: Informática</Text>
       <Text>d. Sua data de ingresso: 2024</Text>
       
-      <StatusBar style="auto" />
+      <View style={styles.box} />
     </View>
   );
 }
@@ -17,8 +16,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    justifyContent: 'center',
+    backgroundColor: '#dadada',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  box: {
+    width: 100,
+    height: 100,
+    backgroundColor: 'blue',
+    borderRadius: 10,
+  }
 });
