@@ -3,12 +3,11 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>a. Seu Nome Completo: Rebeca Alice Garcia Zaia</Text>
-      <Text>b. Sua Matrícula: 40028922</Text>
-      <Text>c. Seu Curso: Informática</Text>
-      <Text>d. Sua data de ingresso: 2024</Text>
-      
-      <View style={styles.box} />
+      <Text style={styles.texto}>Nome: Rebeca Alice Garcia Zaia - INFO 5A</Text>
+        
+      <View style={styles.redBox} />
+      <View style={styles.whiteBox} />
+      <View style={styles.blueBox} />
     </View>
   );
 }
@@ -16,24 +15,26 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'column',
     justifyContent: 'center',
     backgroundColor: '#dadada',
     alignItems: 'center',
-    justifyContent: 'center',
   },
-  box: {
-    width: 350,
-    height: 100,
-    backgroundColor: 'red',
+  texto: {
   },
-    box: {
-    width: 350,
-    height: 100,
-    backgroundColor: 'white',
+  redBox: {
+    width: 400,
+    height: 85,
+    backgroundColor: '#AE1C28',
   },
-  box: {
-    width: 350,
-    height: 100,
-    backgroundColor: 'blue',
+    whiteBox: {
+    width: 400,
+    height: 85,
+    backgroundColor: '#FFFFFF',
+  },
+  blueBox: {
+    width: 400,
+    height: 85,
+    backgroundColor: '#21468B',
   },
 });
