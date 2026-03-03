@@ -8,6 +8,8 @@ export default function App() {
       <View style={styles.redBox} />
       <View style={styles.whiteBox} />
       <View style={styles.blueBox} />
+
+      <Text style={styles.texto}>https://github.com/RebecaZaia/Componentes</Text>
     </View>
   );
 }
