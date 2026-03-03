@@ -21,6 +21,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   texto: {
+    marginLeft: -120,
+    marginBottom: 5,
+    fontSize: 15,
   },
   redBox: {
     width: 400,
