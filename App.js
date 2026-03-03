@@ -9,7 +9,7 @@ export default function App() {
       <View style={styles.whiteBox} />
       <View style={styles.blueBox} />
 
-      <Text style={styles.texto}>https://github.com/RebecaZaia/Componentes</Text>
+      <Text style={styles.link}>https://github.com/RebecaZaia/Componentes</Text>
     </View>
   );
 }
@@ -21,6 +21,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#dadada',
     alignItems: 'center',
+  },
+  link: {
+    flexContent: 'center',
+    fontSize: 10,
   },
   texto: {
     marginLeft: -120,
